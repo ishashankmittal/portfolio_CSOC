@@ -322,9 +322,9 @@ aside{
     background-color: #ffffff;
 }
 .flip-container {
-  perspective: 1000px; /* Add perspective for 3D effect */
-  width: 200px; /* Set the width of the container */
-  height: 200px; /* Set the height of the container */
+  perspective: 1000px; 
+  width: 200px; 
+  height: 200px; 
 }
 
 .flipper {
@@ -332,34 +332,34 @@ aside{
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  animation: flip 3s infinite; /* Apply the flip animation */
+  animation: flip 3s infinite; 
 }
 
 @keyframes flip {
   0% {
-    transform: perspective(1000px) rotateY(0deg); /* Initial state */
+    transform: perspective(1000px) rotateY(0deg); 
   }
   50% {
-    transform: perspective(1000px) rotateY(180deg); /* Midway state */
+    transform: perspective(1000px) rotateY(180deg); 
   }
   100% {
-    transform: perspective(1000px) rotateY(360deg); /* Final state */
+    transform: perspective(1000px) rotateY(360deg); 
   }
 }
 
 
 .pop-up-container {
   display: inline-block;
-  width: 60px; /* Set the width of the container */
-  height: 60px; /* Set the height of the container */
+  width: 60px; 
+  height: 60px; 
   position: relative;
   margin-right: 15%;
-  perspective: 1000px; /* Add perspective for 3D effect */
+  perspective: 1000px; 
 }
 .pop-up-container2 {
   display: inline-block;
   position: relative;
-  perspective: 1000px; /* Add perspective for 3D effect */
+  perspective: 1000px; 
 }
 
 .pop-up-container img {
@@ -369,10 +369,10 @@ aside{
 }
 
 .pop-up-container:hover img {
-  transform: scale(1.5); /* Apply the pop-up effect on hover */
+  transform: scale(1.5); 
 }
 .pop-up-container2:hover{
-  transform: scale(1.15); /* Apply the pop-up effect on hover */
+  transform: scale(1.15);
 }
 #contact{
   box-sizing: border-box;
